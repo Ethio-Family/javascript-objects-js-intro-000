@@ -2,7 +2,7 @@
 // — the keys will be artist names and the values will be song titles.
 
 var playlist = new Object();
-playlist = { artist: 'song'};
+playlist = { artistName: 'songTitle'};
 
 // Create a function updatePlaylist that accepts three parameters: the playlist (an object), an artist name (a string), and a song title.
 // The body of the function should add the song and artist as a key-value pair to the playlist object.
@@ -15,5 +15,5 @@ function updatePlaylist(playlist, artistName, songTitle) {
 
 function removeFromPlaylist(playlist, artistName) {
   delete playlist.artistName;
-  return playlist
+  return playlist;
 }
