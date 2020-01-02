@@ -8,6 +8,8 @@ playlist = { artist: 'song'};
 // The body of the function should add the song and artist as a key-value pair to the playlist object.
 // The function should return the whole playlist.
 
-function updatePlaylist(playlist, key, value ) {
+function updatePlaylist(playlist, artistName, songTitle) {
+  playlist[artistName] = songTitle
+
   return playlist;
 }
